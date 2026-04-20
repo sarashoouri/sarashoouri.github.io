@@ -114,7 +114,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           This paper proposes a predictive, history-aware adaptive scanning framework that anticipates informative regions of interest (ROI) based on past observations. Our approach introduces a lightweight predictor network that distills historical spatial and temporal contexts into refined query embeddings. These embeddings guide a differentiable Mask Generator network, which leverages Gumbel-Softmax sampling to produce binary masks identifying critical ROIs for the upcoming frame.
         </td>
 </tr>
+<tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src="Jsscc.png" width="400" />
+          </div>
+          <script type="text/javascript">
+            function alignerf_start() {
+              document.getElementById('alignerf_image').style.opacity = "1";
+            }
 
+            function alignerf_stop() {
+              document.getElementById('alignerf_image').style.opacity = "0";
+            }
+            alignerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11075113">
+            <span class="papertitle">MITTA: A Multi-Task Transformer Accelerator With Mixed Precision Structured Sparsity and Hierarchical Task-Adaptive Power Management</span>
+          </a>
+
+          <br />
+			Qirui Zhang,
+			Zichen Fan,
+			Pierre Abillama
+           <span style="color: #FFB6C1;"><strong>Sara Shoouri</strong></span>,
+			Jungho Lee,
+			Chien-Wei Tseng,
+			Wei Meng, 
+            Hun-Seok Kim,
+			David Blaauw,
+			Dennis Sylvester
+          <br />
+          <em>Published in 2026 IEEE Journal of Solid-State Circuits </em>
+          <br />
+			<a href="https://ieeexplore.ieee.org/abstract/document/11075113">Paper link</a>
+          <p></p>
+          <p>
+          This article presents MITTA, the first silicon-proven transformer accelerator optimized for multi-task inference across both natural language processing (NLP) and image processing domains. MITTA accelerates a task-sharing algorithm that minimizes sub-task computation by reusing both activations and weights from a shared base task, requiring only sparse delta computation for sub-tasks. To enhance efficiency, MITTA adopts block-wise structured sparsity (BSS) and INT8/INT4 mixed precision arithmetic, alongside a custom INT32 Softmax unit that avoids floating-point (FP) overhead while maintaining numerical accuracy and reducing power by 28%. To further optimize energy, MITTA implements a novel two-stage, task-adaptive dynamic voltage and frequency scaling (DVFS) scheme using a hierarchical power management architecture—combining off-chip DC–DC converters with on-chip power multiplexers (MUXes)—to dynamically select energy-optimal voltage–frequency operating points.
+          </p>
+        </td>
+</tr>
 <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
